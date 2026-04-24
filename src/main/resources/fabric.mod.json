@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "funtime-autoresell",
+  "version": "1.0.0",
+  "name": "FunTime AutoResell",
+  "description": "Автоматическая продажа предметов на аукционе",
+  "authors": ["gleb"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.gleb.funtime.FunTimeAutoResell"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
